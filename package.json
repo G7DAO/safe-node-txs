@@ -1,0 +1,22 @@
+{
+  "name": "safe-node-txs",
+  "version": "1.0.0",
+  "description": "This repository serves as our main testing ground for sending safe txs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.4.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@safe-global/api-kit": "^2.4.4",
+    "@safe-global/protocol-kit": "^4.0.4",
+    "@safe-global/safe-core-sdk-types": "^5.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
